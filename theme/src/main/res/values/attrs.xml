@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Colors -->
+    <attr name="dsColorPrimary" format="color" />
+    <attr name="dsColorBackground" format="color" />
+    <attr name="dsColorBasic" format="color" />
+    <attr name="dsColorDisabled" format="color" />
+    <attr name="dsColorText" format="color" />
+    <attr name="dsColorTextReverse" format="color" />
+    <attr name="dsColorTextDisabled" format="color" />
+    <attr name="dsColorSuccess" format="color" />
+    <attr name="dsColorLink" format="color" />
+    <attr name="dsColorWarning" format="color" />
+    <attr name="dsColorError" format="color" />
+
+    <!-- Typography -->
+    <attr name="dsTypographyHeadline1" format="reference" />
+    <attr name="dsTypographyHeadline2" format="reference" />
+    <attr name="dsTypographyHeadline3" format="reference" />
+    <attr name="dsTypographyHeadline4" format="reference" />
+    <attr name="dsTypographyHeadline5" format="reference" />
+    <attr name="dsTypographyHeadline6" format="reference" />
+    <attr name="dsTypographySubtitle1" format="reference" />
+    <attr name="dsTypographySubtitle2" format="reference" />
+    <attr name="dsTypographyParagraph1" format="reference" />
+    <attr name="dsTypographyParagraph2" format="reference" />
+    <attr name="dsTypographyCaption1" format="reference" />
+    <attr name="dsTypographyCaption2" format="reference" />
+    <attr name="dsTypographyLabel" format="reference" />
+    <attr name="dsTypographyButton" format="reference" />
+
+    <!-- Icons -->
+    <attr name="dsIconBookmark" format="reference" />
+    <attr name="dsIconCamera" format="reference" />
+    <attr name="dsIconHeart" format="reference" />
+    <attr name="dsIconHome" format="reference" />
+    <attr name="dsIconMessageCircle" format="reference" />
+    <attr name="dsIconMoreHorizontal" format="reference" />
+    <attr name="dsIconPaperPlane" format="reference" />
+    <attr name="dsIconPerson" format="reference" />
+    <attr name="dsIconPlusSquare" format="reference" />
+    <attr name="dsIconSearch" format="reference" />
+
+</resources>

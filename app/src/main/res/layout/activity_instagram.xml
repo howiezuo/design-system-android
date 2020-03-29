@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="?attr/dsColorBackground"
+    android:orientation="vertical">
+
+    <io.github.howiezuo.designsystem.component.TopNavigationBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:dsTitle="Instagram"
+        app:menu="@menu/top_navigation_bar_menu"
+        app:navigationIcon="?attr/dsIconCamera" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_photos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/row_card" />
+
+    <io.github.howiezuo.designsystem.component.BottomNavigationBar
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/bottom_navigation_bar_menu" />
+
+</LinearLayout>

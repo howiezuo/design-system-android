@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.DesignSystem" parent="Base.Theme.DesignSystem">
+
+        <item name="dsStylePrimaryButton">@style/DesignSystem.Component.Button.Primary</item>
+        <item name="dsStyleOutlineButton">@style/DesignSystem.Component.Button.Outline</item>
+        <item name="dsStyleIconButton">@style/DesignSystem.Component.IconButton</item>
+
+        <item name="dsStyleAvatarLarge">@style/DesignSystem.Component.Avatar.Large</item>
+        <item name="dsStyleAvatarMedium">@style/DesignSystem.Component.Avatar.Medium</item>
+        <item name="dsStyleAvatarSmall">@style/DesignSystem.Component.Avatar.Small</item>
+
+        <item name="dsStyleTopNavigation">@style/DesignSystem.Component.TopNavigationBar</item>
+        <item name="dsStyleBottomNavigation">@style/DesignSystem.Component.BottomNavigationBar
+        </item>
+
+        <item name="dsStyleCardHeader">@style/DesignSystem.Component.Card.Header</item>
+        <item name="dsStyleCardFooter">@style/DesignSystem.Component.Card.Footer</item>
+
+    </style>
+
+    <style name="Theme.DesignSystem.Another" parent="Base.Theme.DesignSystem.Another">
+
+        <item name="dsStylePrimaryButton">@style/DesignSystem.Component.Button.Primary</item>
+        <item name="dsStyleOutlineButton">@style/DesignSystem.Component.Button.Outline</item>
+        <item name="dsStyleIconButton">@style/DesignSystem.Component.IconButton</item>
+
+        <item name="dsStyleAvatarLarge">@style/DesignSystem.Component.Avatar.Large</item>
+        <item name="dsStyleAvatarMedium">@style/DesignSystem.Component.Avatar.Medium</item>
+        <item name="dsStyleAvatarSmall">@style/DesignSystem.Component.Avatar.Small</item>
+
+        <item name="dsStyleTopNavigation">@style/DesignSystem.Component.TopNavigationBar</item>
+        <item name="dsStyleBottomNavigation">@style/DesignSystem.Component.BottomNavigationBar
+        </item>
+
+        <item name="dsStyleCardHeader">@style/DesignSystem.Component.Card.Header</item>
+        <item name="dsStyleCardFooter">@style/DesignSystem.Component.Card.Footer</item>
+
+    </style>
+
+</resources>

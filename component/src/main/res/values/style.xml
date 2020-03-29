@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DesignSystem.Component" />
+
+    <style name="DesignSystem.Component.Button" />
+
+    <style name="DesignSystem.Component.Button.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/selector_primary_button_background</item>
+        <item name="cornerRadius">4dp</item>
+        <item name="android:textAppearance">?attr/dsTypographyButton</item>
+        <item name="android:textColor">@color/selector_primary_button_text</item>
+    </style>
+
+    <style name="DesignSystem.Component.Button.Outline" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="cornerRadius">4dp</item>
+        <item name="strokeColor">@color/selector_outline_button_stroke</item>
+        <item name="android:textAppearance">?attr/dsTypographyButton</item>
+        <item name="android:textColor">@color/selector_outline_button_text</item>
+    </style>
+
+    <style name="DesignSystem.Component.IconButton" parent="Widget.AppCompat.ImageButton">
+        <item name="android:padding">16dp</item>
+        <item name="tint">?attr/dsColorText</item>
+        <item name="backgroundTint">@android:color/transparent</item>
+    </style>
+
+    <style name="DesignSystem.Component.Avatar">
+        <item name="android:background">@drawable/shape_avatar_background</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="DesignSystem.Component.Avatar.Large">
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">56dp</item>
+    </style>
+
+    <style name="DesignSystem.Component.Avatar.Medium">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name="DesignSystem.Component.Avatar.Small">
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+    </style>
+
+    <style name="DesignSystem.Component.TopNavigationBar" parent="Widget.MaterialComponents.Toolbar.Surface">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="android:backgroundTint">?attr/dsColorBackground</item>
+    </style>
+
+    <style name="DesignSystem.Component.BottomNavigationBar" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="backgroundTint">?attr/dsColorBackground</item>
+        <item name="labelVisibilityMode">unlabeled</item>
+        <item name="itemIconTint">?attr/dsColorText</item>
+    </style>
+
+    <style name="DesignSystem.Component.Card.Header" parent="">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="DesignSystem.Component.Card.Footer" parent="">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+</resources>

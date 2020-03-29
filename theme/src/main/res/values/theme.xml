@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme.DesignSystem" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+        <item name="android:textColor">?attr/dsColorText</item>
+        <item name="android:textColorLink">?attr/dsColorLink</item>
+        <item name="colorError">?attr/dsColorError</item>
+
+        <!-- Colors -->
+        <item name="dsColorPrimary">@color/ds_primary</item>
+        <item name="dsColorBackground">@color/ds_background</item>
+        <item name="dsColorBasic">@color/ds_basic</item>
+        <item name="dsColorDisabled">@color/ds_disabled</item>
+        <item name="dsColorText">@color/ds_text</item>
+        <item name="dsColorTextReverse">@color/ds_text_reverse</item>
+        <item name="dsColorTextDisabled">@color/ds_text_disabled</item>
+        <item name="dsColorSuccess">@color/ds_success</item>
+        <item name="dsColorLink">@color/ds_link</item>
+        <item name="dsColorWarning">@color/ds_warning</item>
+        <item name="dsColorError">@color/ds_error</item>
+
+        <!-- Typography -->
+        <item name="dsTypographyHeadline1">@style/DesignSystem.Typography.Headline1</item>
+        <item name="dsTypographyHeadline2">@style/DesignSystem.Typography.Headline2</item>
+        <item name="dsTypographyHeadline3">@style/DesignSystem.Typography.Headline3</item>
+        <item name="dsTypographyHeadline4">@style/DesignSystem.Typography.Headline4</item>
+        <item name="dsTypographyHeadline5">@style/DesignSystem.Typography.Headline5</item>
+        <item name="dsTypographyHeadline6">@style/DesignSystem.Typography.Headline6</item>
+        <item name="dsTypographySubtitle1">@style/DesignSystem.Typography.Subtitle1</item>
+        <item name="dsTypographySubtitle2">@style/DesignSystem.Typography.Subtitle2</item>
+        <item name="dsTypographyParagraph1">@style/DesignSystem.Typography.Paragraph1</item>
+        <item name="dsTypographyParagraph2">@style/DesignSystem.Typography.Paragraph2</item>
+        <item name="dsTypographyCaption1">@style/DesignSystem.Typography.Caption1</item>
+        <item name="dsTypographyCaption2">@style/DesignSystem.Typography.Caption2</item>
+        <item name="dsTypographyLabel">@style/DesignSystem.Typography.Label</item>
+        <item name="dsTypographyButton">@style/DesignSystem.Typography.Button</item>
+
+        <!-- Icons -->
+        <item name="dsIconBookmark">@drawable/ic_bookmark</item>
+        <item name="dsIconCamera">@drawable/ic_camera</item>
+        <item name="dsIconHeart">@drawable/ic_heart</item>
+        <item name="dsIconHome">@drawable/ic_home</item>
+        <item name="dsIconMessageCircle">@drawable/ic_message_circle</item>
+        <item name="dsIconMoreHorizontal">@drawable/ic_more_horizontal</item>
+        <item name="dsIconPaperPlane">@drawable/ic_paper_plane</item>
+        <item name="dsIconPerson">@drawable/ic_person</item>
+        <item name="dsIconPlusSquare">@drawable/ic_plus_square</item>
+        <item name="dsIconSearch">@drawable/ic_search</item>
+
+    </style>
+
+    <style name="Base.Theme.DesignSystem.Another" parent="Base.Theme.DesignSystem">
+
+        <!-- Colors -->
+        <item name="dsColorPrimary">@color/ds_primary</item>
+        <item name="dsColorBackground">@color/ds_text</item>
+        <item name="dsColorDisabled">@color/ds_disabled</item>
+        <item name="dsColorText">@color/ds_text_reverse</item>
+        <item name="dsColorTextReverse">@color/ds_text</item>
+        <item name="dsColorTextDisabled">@color/ds_text_disabled</item>
+        <item name="dsColorSuccess">@color/ds_success</item>
+        <item name="dsColorLink">@color/ds_link</item>
+        <item name="dsColorWarning">@color/ds_warning</item>
+        <item name="dsColorError">@color/ds_error</item>
+
+    </style>
+
+</resources>

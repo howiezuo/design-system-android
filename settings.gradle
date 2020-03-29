@@ -1,0 +1,4 @@
+rootProject.name='Design System Android'
+include ':app'
+include ':theme'
+include ':component'

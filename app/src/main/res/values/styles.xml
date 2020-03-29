@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.DesignSystem">
+
+        <item name="statusBarBackground">#00000000</item>
+        <item name="android:statusBarColor">#00000000</item>
+    </style>
+
+    <style name="AppTheme.Another" parent="Theme.DesignSystem.Another">
+
+        <item name="statusBarBackground">?attr/dsColorBackground</item>
+        <item name="android:statusBarColor">?attr/dsColorBackground</item>
+    </style>
+</resources>
