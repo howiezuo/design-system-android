@@ -1,1 +1,1 @@
-# A demo about building a implementation of Design System for Android
+# A demo about building a Design System implementation for Android

@@ -53,16 +53,9 @@
     <style name="Base.Theme.DesignSystem.Another" parent="Base.Theme.DesignSystem">
 
         <!-- Colors -->
-        <item name="dsColorPrimary">@color/ds_primary</item>
         <item name="dsColorBackground">@color/ds_text</item>
-        <item name="dsColorDisabled">@color/ds_disabled</item>
         <item name="dsColorText">@color/ds_text_reverse</item>
         <item name="dsColorTextReverse">@color/ds_text</item>
-        <item name="dsColorTextDisabled">@color/ds_text_disabled</item>
-        <item name="dsColorSuccess">@color/ds_success</item>
-        <item name="dsColorLink">@color/ds_link</item>
-        <item name="dsColorWarning">@color/ds_warning</item>
-        <item name="dsColorError">@color/ds_error</item>
 
     </style>
 

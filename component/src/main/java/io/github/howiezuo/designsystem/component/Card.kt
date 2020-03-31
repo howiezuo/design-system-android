@@ -2,7 +2,6 @@ package io.github.howiezuo.designsystem.component
 
 import android.content.Context
 import android.util.AttributeSet
-import android.util.Log
 import android.view.LayoutInflater
 import android.widget.ImageView
 import androidx.annotation.DrawableRes

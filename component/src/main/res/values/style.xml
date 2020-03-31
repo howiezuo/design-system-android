@@ -45,6 +45,10 @@
         <item name="android:layout_height">32dp</item>
     </style>
 
+    <style name="ThemeOverlay.DesignSystem.Component.TopNavigationBar.Navigation" parent="Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="tint">?attr/dsColorText</item>
+    </style>
+
     <style name="DesignSystem.Component.TopNavigationBar" parent="Widget.MaterialComponents.Toolbar.Surface">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -66,6 +70,7 @@
         <item name="android:layout_height">56dp</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:minHeight">56dp</item>
+        <item name="android:background">?attr/dsColorBackground</item>
         <item name="android:orientation">horizontal</item>
     </style>
 
@@ -74,6 +79,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:minHeight">56dp</item>
+        <item name="android:background">?attr/dsColorBackground</item>
         <item name="android:orientation">horizontal</item>
     </style>
 

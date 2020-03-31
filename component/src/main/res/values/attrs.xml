@@ -2,14 +2,10 @@
 <resources>
 
     <attr name="dsStylePrimaryButton" format="reference" />
-    <attr name="dsStyleOutlineButton" format="reference" />
-    <attr name="dsStyleTextButton" format="reference" />
 
     <attr name="dsStyleIconButton" format="reference" />
 
-    <attr name="dsStyleAvatarLarge" format="reference" />
     <attr name="dsStyleAvatarMedium" format="reference" />
-    <attr name="dsStyleAvatarSmall" format="reference" />
 
     <attr name="dsStyleTopNavigation" format="reference" />
     <attr name="dsStyleBottomNavigation" format="reference" />
